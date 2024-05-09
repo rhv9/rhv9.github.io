@@ -1,0 +1,16 @@
+body {
+    background-color: grey;
+    color: white;
+}
+
+
+
+#button-test {
+    width: 200px;
+    height: 50px;
+}
+
+.cont-main {
+    background-color: #222222;
+    padding: 20px;
+}
