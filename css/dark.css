@@ -1,6 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+
 body {
     background-color: grey;
     color: white;
+    font-family: 'Cascadia Code', sans-serif;
+    box-sizing: border-box;
 }
 
 
@@ -12,5 +16,50 @@ body {
 
 .cont-main {
     background-color: #222222;
-    padding: 20px;
+    padding: 4em 10%;
+    border-radius: 5em;
+    border: white 4px solid;
+    margin-top: 20px;
+    max-width: 30em;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.cont-main:first > h1 {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+.github-logo > img{
+    float: right;
+    width: 1.5em;
+    height: 1.5em;    
+}
+
+.github-logo > img:hover {
+    opacity: 60%;
+}
+
+
+
+.yt-demo {
+    display: block;
+    width: 12em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 19px;
+    border: cyan 2px solid;
+    
+}
+
+.flex {
+    display: flex;
+}
+
+span.cy {
+    color: cyan;
 }
